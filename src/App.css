@@ -1,38 +1,179 @@
-.App {
+#root,
+html {
+  background-color: #fffbea;
+}
+
+#appName {
+  font-size: xx-large;
+}
+
+#profileCard {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: #fffff7;
+  box-shadow: 10px 10px 16px #888888;
+}
+
+#navBar {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: max-content;
+  background-color: #4878d9;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+#logo {
+  height: 90px;
+}
+
+#card {
+  width: 20rem;
+  background-color: #fffff7;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 10px 10px 16px #888888;
+}
+
+#selectButton {
+  margin: auto;
+  color: black;
+  background-color: #d9043d;
+  width: 10rem;
+  border-radius: 10px;
+}
+
+#selectButton:hover {
+  background-color: #4878d9;
+}
+
+#logout,
+#login {
+  border-radius: 10px;
+  background-color: #d9043d;
+  width: auto;
+}
+
+#login:hover,
+#logout:hover {
+  background-color: #fffbea;
+}
+
+.nav-link {
+  border-radius: 10px;
+  margin: 3px;
+  background-color: #fffbea;
+  width: auto;
+}
+
+.nav-link:hover {
+  background-color: #d9043d;
+}
+
+#profileButton {
+  border-radius: 20px;
+  background-color: #4878d9;
+  width: 7rem;
+  font-size: x-small;
+}
+
+#profile {
+  margin: 0px;
+  width: 400px;
+  z-index: 10;
+}
+
+#profileImg {
+  border-radius: 50px;
+}
+
+#changeButton {
+  float: right;
+  background-color: #4878d9;
+  width: 5rem;
+  border-radius: 20px;
+}
+
+#deleteButton {
+  background-color: #d9043d;
+  width: 5rem;
+  border-radius: 20px;
+}
+
+.aboutCard {
+  width: 33%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 10px 10px 16px #888888;
+}
+
+.about {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  gap: 22px;
+}
+
+#name {
   text-align: center;
+  font-size: larger;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #4878d9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#searchForm {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 16px #888888;
+  width: 90%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-test {
+  display: flex;
+}
+
+#tableHead {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 90%;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+#chart {
+  max-height: 600px;
+  min-width: 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#carousel {
+  box-shadow: 10px 10px 16px #888888;
+  width: 90%;
+  margin: auto;
+}
+
+.link:hover {
+  color: #d9043d;
+}
+
+#navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.g-4 {
+  overflow-y: scroll;
+  max-height: 700px;
+  margin-bottom: 100px;
 }
